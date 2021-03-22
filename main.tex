@@ -5,8 +5,10 @@
 %load any additional packages
 \usepackage{amssymb}
 \usepackage{listings}
-
+\usepackage{graphicx}
+	\graphicspath{{./figures/Chapter1/Install-Scikit/}}
 \usepackage{color}
+\usepackage{float}
  
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -67,25 +69,25 @@ Applied Bachelor of Informatics Engineering}  %your college
 \include{section/abstract}          % include the abstract
 
 \begin{romanpages}          % start roman page numbering
-\tableofcontents            % generate and include a table of contents
-\listoffigures              % generate and include a list of figures
+    \tableofcontents            % generate and include a table of contents
+    \listoffigures              % generate and include a list of figures
 \end{romanpages}            % end roman page numbering
 
 %now include the files of latex for each of the chapters etc
 \include{section/chapter1}
 \include{section/chapter2}
-\include{section/chapter3}
-\include{section/chapter4}
-\include{section/chapter5}
-\include{section/chapter6}
-\include{section/chapter7}
-\include{section/chapter8}
-\include{section/chapter9}
-\include{section/chapter10}
-\include{section/chapter11}
-\include{section/chapter12}
-\include{section/chapter13}
-\include{section/chapter14}
+%\include{section/chapter3}
+%\include{section/chapter4}
+%\include{section/chapter5}
+%\include{section/chapter6}
+%\include{section/chapter7}
+%\include{section/chapter8}
+%\include{section/chapter9}
+%\include{section/chapter10}
+%\include{section/chapter11}
+%\include{section/chapter12}
+%\include{section/chapter13}
+%\include{section/chapter14}
 
 %now enable appendix numbering format and include any appendices
 \appendix
